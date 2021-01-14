@@ -1,0 +1,19 @@
+{
+  "name": "rslashbot",
+  "version": "1.0.0",
+  "description": "Sends back a subreddit link when \"/r/<Subreddit Name>\" or \"r/<Subreddit Name>\" is messaged",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Shifflett",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "graceful-fs": "^4.2.4",
+    "node-webshot": "^1.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
